@@ -437,8 +437,8 @@ details p {
 
 .company-layout {
   display: grid;
-  grid-template-columns: 300px minmax(0,1fr);
-  gap: 65px;
+  grid-template-columns: 440px minmax(0, 1fr);
+  gap: 45px;
   align-items: center;
 }
 
@@ -447,8 +447,8 @@ details p {
   max-width: 440px;
   background: #101e36;
   border-radius: 22px;
-  padding: 12px;
-  box-shadow: 0 12px 35px rgba(16,30,54,.12);
+  padding: 8px;
+  box-shadow: 0 12px 35px rgba(16, 30, 54, .12);
 }
 
 .company-logo img {
@@ -456,6 +456,18 @@ details p {
   width: 100%;
   height: auto;
   border-radius: 12px;
+}
+
+@media (max-width: 850px) {
+  .company-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .company-logo {
+    max-width: 440px;
+    margin: 0 auto;
+  }
 }
 
 .company-content p {
