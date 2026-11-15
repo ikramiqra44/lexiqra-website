@@ -704,3 +704,36 @@ footer a:hover {
     font-size: clamp(2.6rem,11vw,4rem);
   }
 }
+
+/* LEXIQRA TOOLKIT MOODBOARD */
+
+.toolkit-moodboard {
+  background: #ffffff;
+  padding: 0 0 65px;
+}
+
+.toolkit-moodboard .container {
+  width: min(1400px, calc(100% - 32px));
+  max-width: none;
+}
+
+.moodboard-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 640px) {
+  .toolkit-moodboard {
+    padding-bottom: 35px;
+  }
+
+  .toolkit-moodboard .container {
+    width: calc(100% - 16px);
+  }
+
+  .moodboard-image {
+    border-radius: 6px;
+  }
+}
