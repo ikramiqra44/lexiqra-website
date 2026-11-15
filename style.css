@@ -754,21 +754,23 @@ footer a:hover {
 }
 
 /* Smaller Founder Banner */
-.founder-banner {
-  display: block;
+/* Founder – smaller complete graphic */
+.founder-profile {
   width: 100%;
-  max-width: 900px;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 18px;
+  max-width: 750px;
+  margin: 35px auto 0;
 }
 
-/* Founder image size */
+.founder-portrait {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
 .founder-portrait img {
   display: block;
   width: 100%;
-  max-width: 700px;
+  max-width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
