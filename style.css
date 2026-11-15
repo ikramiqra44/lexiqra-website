@@ -763,4 +763,12 @@ footer a:hover {
   border-radius: 18px;
 }
 
+/* Founder image size */
+.founder-portrait img {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
 
